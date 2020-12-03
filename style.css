@@ -34,11 +34,11 @@ body, html {
     margin: 40px;
 }
 
-#galeryButton {
+#galleryButton {
     margin-top: 5%;
 }
 
-.galeryImage {
+.galleryImage {
     width: 30%;
     height: 30%;
     display: inline-block;
