@@ -1,0 +1,108 @@
+body {
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#overlay {
+    background-color: black;
+    width: 99%;
+    height: 98%;
+    opacity: 0.85;
+    border-radius: 15%;
+    border: 1px white solid
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 550%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+    text-align: center;
+}
+
+#headline {
+    padding: 6em 0 2em 0;
+}
+
+.subDiv {
+    width: 49.85%;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    opacity: 0.6;
+    transition: opacity 1.5s;
+}
+
+.subDiv:hover {
+    opacity: 1;
+}
+
+#imageBox {
+    margin: 0 10% 0.5em 10%;
+    padding-top: 0;
+}
+
+#imageBox img {
+    margin: 0 0.3em 0.3em 0.3em;
+    display: inline-block;
+    border-radius: 35%;
+}
+
+#mainImg {
+    border: 2.5px solid white; 
+}
+
+.sideImg {
+    opacity: 0.65;
+}
+
+.outerImg {
+    opacity: 0.3;
+}
+
+#backBox {
+    background-color: white;
+    border-radius: 15%;
+    opacity: 0.6;
+    width: 4%;
+    height: 5%;
+    margin: 7em;
+    padding: 1em;
+    transition: opacity 1.5s;
+}
+
+#backBox:hover {
+    opacity: 1;
+}
+
+#backImage {
+    padding: 0.5em;
+}
+
+#textHeadline {
+    padding-top: 1.5em;
+    font-size: 300%;
+}
+
+p {
+    padding: 1.75em 12em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+#galleryHeadline {
+    padding: 1em 0 0 0;
+}
