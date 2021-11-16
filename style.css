@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 450%;
+    text-align: center;
+    margin: 4em 0 0 0;
+}
