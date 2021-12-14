@@ -31,12 +31,14 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 6vw;
     text-align: center;
+    margin: 1vw 5vw;
 }
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.85vw;
     text-align: center;
+    margin: 5vw;
 }
 
 #headline {
