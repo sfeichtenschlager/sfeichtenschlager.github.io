@@ -1,2 +1,2 @@
 # sfeichtenschlager.github.io
-### this website can be reached by entering this URL
+### This website can be reached by entering this URL.
