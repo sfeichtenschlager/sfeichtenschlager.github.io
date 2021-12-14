@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-image: url('./img/background.jpg');
     background-size: cover;
@@ -5,26 +9,33 @@ body {
     overflow: hidden;
     width: 100%;
     height: 100%;
+    text-decoration: none;
 }
 
 #overlay {
     background-color: black;
-    width: 99%;
+    width: 98.75%;
     height: 98%;
     opacity: 0.85;
     border-radius: 15%;
-    border: 1px white solid
+    border: 1px white solid;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 550%;
+    font-size: 6vw;
     text-align: center;
 }
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 250%;
+    font-size: 2.85vw;
     text-align: center;
 }
 
@@ -33,13 +44,15 @@ h2 {
 }
 
 .subDiv {
-    width: 49.85%;
+    width: 47vw;
     display: inline-block;
     background-color: white;
     opacity: 0.9;
     color: black;
     opacity: 0.6;
     transition: opacity 1.5s;
+    margin: 1vw;
+    border-radius: 5%;
 }
 
 .subDiv:hover {
@@ -49,6 +62,7 @@ h2 {
 #imageBox {
     margin: 0 10% 0.5em 10%;
     padding-top: 0;
+    width: 100%;
 }
 
 #imageBox img {
@@ -73,8 +87,8 @@ h2 {
     background-color: white;
     border-radius: 15%;
     opacity: 0.6;
-    width: 4%;
-    height: 5%;
+    width: 15vw;
+    height: 5vh;
     margin: 7em;
     padding: 1em;
     transition: opacity 1.5s;
@@ -105,4 +119,34 @@ h3 {
 
 #galleryHeadline {
     padding: 1em 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .subDiv {
+        display: block;
+        width: 98vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    .subDiv h2 {
+        font-size: 5vw;
+        padding: 2vw;
+    }
+
+    #imageBox img {
+        display: block;
+        width: 60vw;
+        margin: 5vw 0 5vw 10vw;
+    }
+
+    #imageBox {
+        padding-top: 5vw;
+    }
+
+    p {
+        padding: 0.875em 6em;
+    }
 }
